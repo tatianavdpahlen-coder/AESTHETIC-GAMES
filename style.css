@@ -1,0 +1,16 @@
+body {
+    background: pink;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0 0 10px #fff;
+}
+
+canvas {
+    background: linear-gradient(#ffd6e7, #ffffff);
+    border: 3px solid white;
+    border-radius: 10px;
+}
