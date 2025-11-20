@@ -11,3 +11,46 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Frosted Roses</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="game-shell">
+    <h1 class="title">❄️ Frosted Roses ❄️</h1>
+
+    <div class="card">
+      <canvas id="gameCanvas" width="360" height="540"></canvas>
+
+      <div class="hud">
+        <div class="hud-item">
+          <span class="label">Score</span>
+          <span id="scoreValue" class="value">0</span>
+        </div>
+        <div class="hud-item">
+          <span class="label">Misses</span>
+          <span id="missValue" class="value">0</span>
+        </div>
+      </div>
+
+      <div id="message" class="message hidden">
+        <p id="messageText"></p>
+        <button id="playButton">Play</button>
+      </div>
+    </div>
+
+    <p class="hint">
+      Tap or drag on the card to move the glowing dot and collect the sparkly snowflakes. ✨
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
